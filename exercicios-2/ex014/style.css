@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body{
+    background-color: darkslategrey;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22pt;
+    color: aliceblue;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    color: aliceblue;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    color: aliceblue;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    color: aliceblue;
+    text-align: justify;
+}
