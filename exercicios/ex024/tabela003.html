@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 750px;
+            border-collapse: collapse;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 5px;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: lightgray;
+        }
+        div#container{
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas em Telas Pequenas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eos, molestias nam dicta eaque doloremque! Libero temporibus doloremque laudantium nisi reiciendis voluptate, modi repudiandae at, delectus enim, quasi voluptates iure.</p>
+
+    <div id="container">
+    <table>
+        <caption>Tabelas Responsivas</caption>
+        <thead>
+        <tr>
+            <th scope="col" rowspan="2">Autor</th>
+            <th scope="colgroup" colspan="12">Livros Vendidos</th>
+        </tr>
+        <tr>
+            <th scope="col">Jan</th>
+            <th scope="col">Fev</th>
+            <th scope="col">Mar</th>
+            <th scope="col">Abr</th>
+            <th scope="col">Mai</th>
+            <th scope="col">Jun</th>
+            <th scope="col">Jul</th>
+            <th scope="col">Ago</th>
+            <th scope="col">Set</th>
+            <th scope="col">Out</th>
+            <th scope="col">Nov</th>
+            <th scope="col">Dez</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>George RR Martin</td>
+                <td>177</td>
+                <td>184</td>
+                <td>209</td>
+                <td>189</td>
+                <td>195</td>
+                <td>212</td>
+                <td>204</td>
+                <td>170</td>
+                <td>193</td>
+                <td>184</td>
+                <td>217</td>
+                <td>190</td>
+            </tr>
+            <tr>
+                <td>Stephen King</td>
+                <td>254</td>
+                <td>302</td>
+                <td>317</td>
+                <td>403</td>
+                <td>355</td>
+                <td>297</td>
+                <td>304</td>
+                <td>288</td>
+                <td>397</td>
+                <td>415</td>
+                <td>423</td>
+                <td>475</td>
+            </tr>
+            <tr>
+                <td>Neil Gaiman</td>
+                <td>170</td>
+                <td>164</td>
+                <td>189</td>
+                <td>195</td>
+                <td>200</td>
+                <td>204</td>
+                <td>191</td>
+                <td>181</td>
+                <td>194</td>
+                <td>195</td>
+                <td>204</td>
+                <td>199</td>
+            </tr>
+            <tr>
+                <td>Brandon Sanderson</td>
+                <td>84</td>
+                <td>100</td>
+                <td>102</td>
+                <td>115</td>
+                <td>90</td>
+                <td>77</td>
+                <td>83</td>
+                <td>95</td>
+                <td>102</td>
+                <td>103</td>
+                <td>112</td>
+                <td>88</td>
+            </tr>
+            <tr>
+                <td>Patrick Rothfuss</td>
+                <td>91</td>
+                <td>65</td>
+                <td>54</td>
+                <td>73</td>
+                <td>88</td>
+                <td>100</td>
+                <td>104</td>
+                <td>75</td>
+                <td>89</td>
+                <td>63</td>
+                <td>108</td>
+                <td>92</td>
+            </tr>
+            <tr>
+                <td>Joe Abercrombie</td>
+                <td>70</td>
+                <td>69</td>
+                <td>91</td>
+                <td>92</td>
+                <td>100</td>
+                <td>108</td>
+                <td>81</td>
+                <td>77</td>
+                <td>68</td>
+                <td>51</td>
+                <td>44</td>
+                <td>102</td>
+            </tr>
+            <tr>
+                <td>Pierce Brown</td>
+                <td>44</td>
+                <td>54</td>
+                <td>77</td>
+                <td>95</td>
+                <td>102</td>
+                <td>117</td>
+                <td>129</td>
+                <td>133</td>
+                <td>94</td>
+                <td>70</td>
+                <td>61</td>
+                <td>95</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+</body>
+</html>
