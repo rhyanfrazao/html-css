@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 5</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <form action="cadastro.js" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Livros Favoritos do Stephen King</legend>
+            <input type="checkbox" name="iluminado" id="id-iluminado"><label for="id-iluminado">O Iluminado</label><br>
+            <input type="checkbox" name="salem" id="id-salem"><label for="id-salem">Salem</label><br>
+            <input type="checkbox" name="it" id="id-it"><label for="id-it">It - A Coisa</label><br>
+            <input type="checkbox" name="danca" id="id-danca"><label for="id-danca">A Dança da Morte</label><br>
+            <input type="checkbox" name="cemiterio" id="id-cemiterio"><label for="id-cemiterio">O Cemitério</label><br>
+            <input type="checkbox" name="novembro" id="id-novembro"><label for="id-novembro">Novembro de 63</label><br>
+            <input type="checkbox" name="zona" id="id-zona"><label for="id-zona">A Zona Morta</label>
+        </fieldset>
+        <fieldset>
+            <legend>Gênero</legend>
+            <input type="radio" name="genero" id="id-masc" value="M"><label for="id-masc">Masculino</label>
+            <input type="radio" name="genero" id="id-fem" value="F"><label for="id-fem">Feminino</label>
+            <input type="radio" name="genero" id="id-na" value="NA"><label for="id-na">Não Opinar</label>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
