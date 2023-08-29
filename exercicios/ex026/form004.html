@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 4</title>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <fieldset>
+    <legend>Dados Pessoais:</legend>
+    <form action="cadastro.js" method="get" autocomplete="on">
+        <p>
+            <label for="id-email">E-mail</label>
+            <input type="email" name="email" id="id-email" required placeholder="usuario@hospedagem.com" minlength="10" maxlength="35" autocomplete="email" size="20">
+        </p>
+        <p>
+            <label for="id-tel">Telefone</label>
+            <input type="tel" name="tel" id="id-tel" autocomplete="tel" required placeholder="(DDD) XXXX-XXXX" pattern="^[0-9]{2,3} [0-9]{4,5}-[0-9]{4}$">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    </fieldset>
+</body>
+</html>
