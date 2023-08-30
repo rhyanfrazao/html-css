@@ -13,8 +13,9 @@
         <input type="color" name="cor" id="id-cor" value="#ffffff">
     </p>
     <p>
-        <label for="id-nivel">Nível de Satisfação:</label>
-        <input type="range" name="nivel" id="id-nivel" min="1" max="10" value="1">
+        <label for="idnivel">Nível de Satisfação:</label>
+        <input type="range" name="nivel" id="idnivel" min="1" max="100" value="1" oninput="idval.innerHTML = Number(idnivel.value)">
+        <output id="idval">1</output>
     </p>
     <p>
         <label for="id-foto">Foto de Perfil</label><br><br>
