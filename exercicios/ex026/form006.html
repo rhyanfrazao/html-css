@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 6</title>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <form action="cadastro.js" method="post">
+    <p>
+        <label for="id-cor">Cor: </label>
+        <input type="color" name="cor" id="id-cor" value="#ffffff">
+    </p>
+    <p>
+        <label for="id-nivel">Nível de Satisfação:</label>
+        <input type="range" name="nivel" id="id-nivel" min="1" max="10" value="1">
+    </p>
+    <p>
+        <label for="id-foto">Foto de Perfil</label><br><br>
+        <input type="file" name="foto" id="id-foto">
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+    </form>
+</body>
+</html>
