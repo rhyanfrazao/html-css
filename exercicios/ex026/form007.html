@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 7</title>
+</head>
+<body>
+        <h1>Teste de Formulário</h1>
+        <form action="cadastro.js" method="post">
+        <p>
+            <label for="id-estado">Estado: </label>
+            <select name="estado" id="id-estado">
+                <option value="">--- Selecione ---</option>
+                <optgroup label="Região Centro Oeste">
+                    <option value="DF">Distrito Federal</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                </optgroup>
+                <optgroup label="Região Sudeste">
+                    <option value="ES">Espírito Santo</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+                <optgroup label="Região Sul">
+                    <option value="PR">Paraná</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="SC">Santa Catarina</option>
+                </optgroup>
+                <option value="">Outro</option>
+            </select>
+        </p>
+        <p>
+            <label for="id-livro">Romance preferido do Neil Gaiman: </label>
+            <input type="text" name="livro" id="id-livro" list="list-livro">
+            <datalist id="list-livro">
+                <option>Lugar Nenhum</option>
+                <option>Good Omens</option>
+                <option>Deuses Americanos</option>
+                <option>Stardust</option>
+                <option>Filhos de Anansi</option>
+                <option>O Livro do Cemitério</option>
+                <option>O Oceano no Fim do Caminho</option>
+                <option>Mitologia Nórdica</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="id-msg">Mensagem: </label><br>
+            <textarea name="msg" id="id-msg" cols="30" rows="8"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
