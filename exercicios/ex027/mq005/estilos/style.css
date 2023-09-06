@@ -19,8 +19,22 @@ header > h1{
     text-align: center;
 }
 
-menu{
+#burguer{
+    background-color: rgb(48, 48, 48);
     display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor:pointer    /*Cria a "mãozinha" de clicar*/
+}
+
+#burguer:hover{
+    background-color: white;
+    color: black;
+}
+
+menu{
+    display: none;
 }
 
 menu > ul{
@@ -58,4 +72,12 @@ article > p{
     text-align: justify;
     margin-bottom: 20px;
     text-indent: 20px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
 }
